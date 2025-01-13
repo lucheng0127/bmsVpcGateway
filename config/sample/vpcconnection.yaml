@@ -1,0 +1,10 @@
+apiVersion: network.stack.io/v1alpha1
+kind: VpcConnection
+metadata:
+  name: vpc-conn-pw8yv1457kp6vr
+spec:
+  vpcNat: vpc-pw8yv1457kp6vr
+  vpcNatEip: 10.24.9.60
+  vpcNatSubnet: 192.168.100.0/24
+status:
+  phase: done
